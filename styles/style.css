@@ -1,0 +1,215 @@
+body{
+    background-color: #FFFBDD;
+    .radio-canada-big {
+        font-family: "Radio Canada Big", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 700;
+        font-style: normal;
+      }
+    .wrapper{
+        width: 1440px;
+        height: 1997px;
+        
+    }
+    .nav{
+        width: 1440px;
+        height: 144px;
+    }
+    .navlogo{
+        top: 29px;
+        left: 21px;
+        width: 164px;
+        height: 53px;
+        margin-left: 41px;
+    }
+    #navbutton1, #navbutton2, #navbutton3{
+        font-family: "Radio Canada Big", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: semi-bold;
+        font-size: 24px;
+    }
+    #rect1{
+        position: absolute;
+        top: 34px;
+        left: 758px;
+        width: 185px;
+        height: 38px;
+        outline: 0.5;
+        outline-style: solid;
+        outline-color: black;
+        text-align: center;
+    }
+    #rect2{
+        position: absolute;
+        top: 34px;
+        left: 987px;
+        width: 185px;
+        height: 38px;
+        outline: 0.5;
+        outline-style: solid;
+        outline-color: black;
+        text-align: center;
+
+    }
+    #rect4{
+        position: absolute;
+        text-align: center;
+        top: 44px;
+        left: 1228px;
+        width: 185px;
+        height: 38px;
+        outline: 0.5;
+        outline-style: solid;
+        outline-color: black;
+        background-color: black;
+    }
+    #rect3{
+        position: absolute;
+        text-align: center;
+        top: 34px;
+        left: 1216px;
+        width: 185px;
+        height: 38px;
+        outline: 0.5;
+        outline-style: solid;
+        outline-color: black;
+        background-color: #FFE57C;
+
+        
+    }
+    
+    #Logo{
+        width: 164;
+        height: 53;
+        top: 41px;
+        left: 23px;
+        font-family:"Radio Canada Big", sans-serif ;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 48px;
+    }
+    .section2{
+        position: absolute;
+        width: 1440px;
+        height: 199px;
+        top: 80px;
+        left: 0px;
+        outline: #FFFBDD;
+
+    }
+    .headerpageone {
+        font-family: "Radio Canada Big", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 64px;
+        margin-left: 78px;
+
+
+    }
+    .subheaderpageone, p, .radio-canada-big{
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 32px;
+        margin-left: 78px;
+        position: absolute;
+        top: 161px;
+        left: -35px;
+
+    }
+    .subheaderpageone{
+        width: 943px;
+        height: 630px;
+        
+    }
+    #location{
+        position: absolute;
+        font-weight: 100;
+        font-size: 20px;
+        top: 100px;
+        left: 10px;
+    }
+    #rectblackCV{
+        position: absolute;
+        text-align: center;
+        width: 290px;
+        height: 80px;
+        left: 120px;
+        top: 525px;
+        outline-style: solid;
+        outline-color: black;
+        background-color: black;
+    }
+    #rectDownCV{
+        position: absolute;
+        width: 290px;
+        height: 80px;
+        left: 98px;
+        top: 505px;
+        outline-style: solid;
+        outline-color: black;
+        background-color: #FFE57C;
+    }
+    #rectDownCV{
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+    h2, .radio-canada-big{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    #rectHTMLfill{
+        position: absolute;
+        top: 560px;
+        right: 250px;
+        width: 387px;
+        height: 96px;
+        border-radius: 60px;
+        background-color: red;
+    }
+    #rectJSfill{
+        position: absolute;
+        top: 460px;
+        right: 250px;
+        width: 387px;
+        height: 96px;
+        border-radius: 60px;
+        background-color: #5741B2;
+    }
+    #rectCSSfill{
+        position: absolute;
+        width: 204px;
+        height: 80px;
+        top: 378px;
+        right: 246px;
+        border-radius: 60px;
+        background-color: #EAED4C;
+    }
+    #rectVUEfill{
+        position: absolute;
+        top: 405px;
+        right: 5px;        
+        width: 387px;
+        height: 95px;
+        border-radius: 60px;
+        background-color: #2E5138;
+        transform: rotate(90deg);
+    }
+    #rectPythonfill{
+        position: absolute;
+        width: 263px;
+        height: 73px;
+        top: 260px;
+        right: 210px;
+        border-radius: 60px;
+        outline-style: solid;
+        outline-color: #C56C4F;
+        transform: rotate(150.9deg);
+    }
+
+   
+   
+}
