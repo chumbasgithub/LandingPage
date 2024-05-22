@@ -1,0 +1,25 @@
+body{
+    background-color: #FFFBDD;
+
+    .wrapper{
+        display: flex;
+        /* flex-direction: row; */
+        border: 2px solid black;
+        height: 98vh;
+        width: 98vw;
+    }
+    .section{
+        display: flex;
+        border: 2px solid red;
+        width: 90vw;
+
+    }
+    .nav{
+        border: 2px solid greenyellow;
+    }
+    
+   /* border and display flex  */
+
+   /* centering a div using flexbox */
+   
+}

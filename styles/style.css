@@ -7,9 +7,22 @@ body{
         font-style: normal;
       }
     .wrapper{
+        display: flex;
+        flex-direction: row;
         width: 1440px;
         height: 1997px;
         
+    }
+    .section{
+        display: flex;
+        border: 1px solid red;
+        /* position: absolute; */
+        /* width: 1440px; */
+        /* height: 199px; */
+        /* top: 80px; */
+        /* left: 0px; */
+        outline: #FFFBDD;
+
     }
     .nav{
         width: 1440px;
@@ -90,15 +103,7 @@ body{
         font-style: normal;
         font-size: 48px;
     }
-    .section2{
-        position: absolute;
-        width: 1440px;
-        height: 199px;
-        top: 80px;
-        left: 0px;
-        outline: #FFFBDD;
-
-    }
+    
     .headerpageone {
         font-family: "Radio Canada Big", sans-serif;
         font-optical-sizing: auto;
