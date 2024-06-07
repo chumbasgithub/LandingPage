@@ -4,9 +4,10 @@ body{
     .wrapper1{
         display: flex;
         /* flex-direction: row; */
-        border: 2px solid black;
-        height: 98vh;
-        width: 98vw;
+        border: 3px solid black;
+        /* height: 98vh; */
+        width: 100vw;
+
     }
     .section{
         display: flex;
@@ -31,7 +32,7 @@ body{
         display: flex;
         flex-flow:column ;
         width: 96vw;
-        height: 80vh;
+        height: 90vh;
         border: 2px solid green;
         margin-top: 20px;
     }
@@ -39,6 +40,7 @@ body{
         display: flex;
         justify-content: flex-start;
         align-content: center;
+        align-items: center;
         width: 30vw;
         height: 10vh;
         border: 2px solid salmon;
@@ -57,6 +59,7 @@ body{
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
+        font-size: 45px;
     }
     p{
         font-family: "Radio Canada Big", sans-serif;
@@ -175,14 +178,61 @@ body{
         margin-left: 5vw;
 
     }
+    #h1maincenter{
+        display: flex;
+        justify-content: center;
+        font-size: 64px;
+        margin-left: 5vw;
+
+    }
     #location{
         display: flex;
         justify-content: flex-start;
         font-size: 20px;
         margin-left: 5vw;
     }
-   /* border and display flex  */
+    .project-section{
+        display: flex;
+        flex-direction: row;
+        width: 96vw;
+        height: 40vh;
+        justify-content: center;
+        gap: 5vw;
+        /* border: 3px solid blueviolet; */
+    }
 
-   /* centering a div using flexbox */
-   
+    /* .hero-section-row{
+        display: flex;
+        flex-flow:row ;
+        width: 96vw;
+        height: 90vh;
+        border: 2px solid green;
+        margin-top: 20px;
+    }*/
+    #project1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        width: 350px;
+        height: 233px;
+        border: 6px solid red;
+        text-align: center;
+    } 
+    footer{
+        display: flex;
+        align-content: flex-end;
+        margin-top: auto;
+        height: 15vh;
+        border: 5px solid blue;
+        gap: 10vw;
+    }
+    h2{
+        font-family: "Radio Canada Big", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 30px;
+    }
+    
 }
