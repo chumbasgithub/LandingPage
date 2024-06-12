@@ -4,7 +4,7 @@ body{
     .wrapper1{
         display: flex;
         /* flex-direction: row; */
-        border: 3px solid black;
+        /* border: 3px solid black; */
         /* height: 98vh; */
         width: 100vw;
 
@@ -13,7 +13,7 @@ body{
         display: flex;
         /* justify-content: center; */
         align-items: flex-start;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 96vw;
 
     }
@@ -24,7 +24,7 @@ body{
         row-gap: 30px; */
         width: 96vw;
         height: 10vh;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         margin: 10px 10px 10px 10px;
         
     }
@@ -33,7 +33,7 @@ body{
         flex-flow:column ;
         width: 96vw;
         height: 90vh;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         margin-top: 20px;
     }
     .logo{
@@ -43,7 +43,7 @@ body{
         align-items: center;
         width: 30vw;
         height: 10vh;
-        border: 2px solid salmon;
+        /* border: 2px solid salmon; */
     }
     .menu{
         display: flex;
@@ -51,7 +51,7 @@ body{
         justify-content: space-evenly;
         width: 70vw;
         height: 10vh;
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
         margin-left: 20px;
     }
     h1{
@@ -224,7 +224,7 @@ body{
         align-content: flex-end;
         margin-top: auto;
         height: 15vh;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         gap: 10vw;
     }
     h2{
